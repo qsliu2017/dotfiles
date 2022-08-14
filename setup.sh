@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
 workspace=$(dirname "$0")
 
-function setup_gitpod_env() {
+setup_gitpod_env() {
     $workspace/vscode_extensions.sh
 }
 

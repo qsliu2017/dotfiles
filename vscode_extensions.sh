@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 extensions=(
     "mhutchie.git-graph"
@@ -7,7 +7,7 @@ extensions=(
     "VisualStudioExptTeam.vscodeintellicode"
 )
 
-function install() {
+install() {
     for extension in "${extensions[@]}"; do
         code --install-extension $extension
     done
